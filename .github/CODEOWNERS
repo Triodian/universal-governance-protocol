@@ -1,0 +1,10 @@
+# CODEOWNERS — review routing for the UGP open protocol layer
+#
+# The project is currently maintainer-led (see GOVERNANCE.md). All review
+# routes to the maintainer. As the project grows and — after hand-over to the
+# Casuarina Foundation — technical committees are formed, split ownership by
+# area here (e.g. /spec/ to a core committee, /domains/ to a domain committee).
+#
+# NOTE: replace @damohickey1966 below with the actual GitHub username if different.
+
+* @damohickey1966
