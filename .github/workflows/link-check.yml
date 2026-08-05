@@ -1,0 +1,47 @@
+name: Docs checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  internal-links:
+    name: Internal Markdown links resolve
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check relative links
+        shell: python
+        run: |
+          import re, os, sys
+
+          broken = []
+          for root, _, files in os.walk('.'):
+              if '.git' in root:
+                  continue
+              for fn in files:
+                  if not fn.endswith('.md'):
+                      continue
+                  path = os.path.join(root, fn)
+                  with open(path, encoding='utf-8') as fh:
+                      text = fh.read()
+                  for m in re.finditer(r'\]\(([^)]+)\)', text):
+                      link = m.group(1).split('#')[0].strip()
+                      if (not link
+                              or link.startswith(('http://', 'https://', 'mailto:', 'ugp://'))):
+                          continue
+                      target = os.path.normpath(os.path.join(root, link))
+                      if not os.path.exists(target):
+                          broken.append(f"{path} -> {link}")
+
+          if broken:
+              print("Broken internal links:")
+              for b in broken:
+                  print("  " + b)
+              sys.exit(1)
+          print("All internal Markdown links resolve.")
