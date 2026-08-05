@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security or verification vulnerability
+    url: https://github.com/orthogramic/universal-governance-protocol/security/advisories/new
+    about: Do NOT open a public issue for security or verification-bypass problems. Use private vulnerability reporting — see SECURITY.md.
+  - name: Question or general discussion
+    url: https://github.com/orthogramic/universal-governance-protocol/discussions
+    about: For questions, ideas, and open-ended discussion, please use Discussions rather than an issue.
