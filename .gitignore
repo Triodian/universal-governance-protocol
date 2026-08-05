@@ -1,0 +1,49 @@
+# ── OS / editor cruft ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ── Docs tooling (if a site generator is added later) ─────────────
+_site/
+.jekyll-cache/
+.jekyll-metadata
+node_modules/
+.cache/
+public/
+build/
+dist/
+
+# ── Reference implementations / SDKs (if colocated later) ─────────
+# The open protocol layer is documentation-first. If reference
+# implementations or SDKs are added to this repo rather than split
+# into their own, uncomment the relevant blocks.
+
+# Python
+# __pycache__/
+# *.py[cod]
+# .venv/
+# venv/
+# .pytest_cache/
+# *.egg-info/
+
+# Node / TypeScript
+# npm-debug.log*
+# yarn-error.log
+# *.tsbuildinfo
+
+# Rust
+# target/
+# Cargo.lock
+
+# C/C++
+# *.o
+# *.obj
+
+# ── Local scratch ────────────────────────────────────────────────
+*.log
+tmp/
+scratch/
