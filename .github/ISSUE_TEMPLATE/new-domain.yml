@@ -1,0 +1,61 @@
+name: New domain sub-protocol or profile
+description: Propose a new UGP domain sub-protocol or a new domain profile.
+title: "[domain] <name of domain or profile>"
+labels: ["domain", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New domains extend the Core; they do not fork it. Please follow the shape of the
+        existing domain documents (scope note → token extension → verification additions →
+        conformance → relationship to other UGP protocols). See CONTRIBUTING.md.
+  - type: input
+    id: name
+    attributes:
+      label: Proposed name and abbreviation
+      placeholder: "e.g. Robotics Governance Protocol (RB-GP)"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - New sub-protocol (peer of AGP/SGP/FA-GP/MA-GP/DLGP/CDP)
+        - New domain profile (entry in domains/PROFILES.md)
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: governs
+    attributes:
+      label: What is governed
+      description: The class of outputs, actions, data, or posture this domain governs.
+    validations:
+      required: true
+  - type: textarea
+    id: attests
+    attributes:
+      label: What is attested
+      description: What a token in this domain proves that no existing domain already proves.
+    validations:
+      required: true
+  - type: textarea
+    id: extension
+    attributes:
+      label: Token extension fields
+      description: The domain-specific fields carried in domain_extensions, at a sketch level.
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Relationship to existing domains
+      description: Why this is not already covered by an existing sub-protocol or profile, and how it composes with them via cross_domain_attestations.
+    validations:
+      required: true
+  - type: textarea
+    id: scope-boundary
+    attributes:
+      label: Open vs enforcement boundary
+      description: What is in scope for the open layer here, and what is left to licensed enforcement. Note any adversary-sensitive detail that must be excluded.
+    validations:
+      required: true
