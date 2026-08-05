@@ -1,0 +1,75 @@
+name: Specification change or clarification
+description: Propose a correction, clarification, or change to a normative or explanatory document.
+title: "[spec] <short description>"
+labels: ["spec", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for changes to the specifications, domain sub-protocols, profiles, or supporting docs.
+        For a **new** domain sub-protocol or profile, use the "New domain / profile" template instead.
+        For anything affecting verification security, **stop** and read [SECURITY.md](../blob/main/SECURITY.md).
+  - type: dropdown
+    id: document
+    attributes:
+      label: Affected document
+      options:
+        - spec/CORE.md
+        - spec/FCSL.md
+        - spec/TRUST-MODEL.md
+        - spec/CONFORMANCE.md
+        - domains/AGP.md
+        - domains/SGP.md
+        - domains/FA-GP.md
+        - domains/MA-GP.md
+        - domains/DLGP.md
+        - domains/CDP.md
+        - domains/PROFILES.md
+        - Other (state below)
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section / heading
+      placeholder: "e.g. §4.3 Convergence Proof Semantics"
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or gap
+      description: What is unclear, wrong, or missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Proposed wording or behaviour. Concrete text is welcome.
+    validations:
+      required: true
+  - type: dropdown
+    id: compat
+    attributes:
+      label: Backward-compatibility impact
+      description: Minor versions must not break existing verifiers (see CORE.md §9).
+      options:
+        - No observable protocol change (editorial/clarification)
+        - Backward-compatible (minor version)
+        - Backward-incompatible (major version)
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: vectors
+    attributes:
+      label: Conformance test vectors
+      description: For any change to observable behaviour, describe the vectors that should pin it down (see CONFORMANCE.md).
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: This does not request or disclose adversary-sensitive operational detail excluded from the public specs.
+          required: true
+        - label: This is not a security/verification-bypass report (those go through SECURITY.md, privately).
+          required: true
