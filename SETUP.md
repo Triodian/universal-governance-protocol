@@ -10,8 +10,8 @@ The repository is set up for the following, so no placeholder editing is needed 
 | Setting | Value | Where |
 |---|---|---|
 | Maintainer / reviewer | `@damohickey1966` | `.github/CODEOWNERS` |
-| Repository slug | `orthogramic/universal-governance-protocol` | `.github/ISSUE_TEMPLATE/config.yml` |
-| Contact address | `info@orthogramic.com` | `SECURITY.md`, `CODE_OF_CONDUCT.md`, `GOVERNANCE.md` |
+| Repository slug | `triodian/universal-governance-protocol` | `.github/ISSUE_TEMPLATE/config.yml` |
+| Contact address | `info@triodian.com` | `SECURITY.md`, `CODE_OF_CONDUCT.md`, `GOVERNANCE.md` |
 
 Optional: `LICENSE` references the Apache 2.0 text by URL. Paste the full Apache 2.0 body into it if your convention requires the complete text.
 
