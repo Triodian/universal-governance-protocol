@@ -37,4 +37,4 @@ Yes, through a **governance bridge** that translates their attestations into UGP
 Through the extension and contribution process in [`CONTRIBUTING.md`](CONTRIBUTING.md). New extensions pass a compatibility and security review so the protocol does not fragment into incompatible variants.
 
 **Who governs the protocol?**
-The UGP is stewarded by Orthogramic Pty Ltd today, which intends to transfer stewardship to an independent public-interest body, the Casuarina Foundation, once it is established. The commitments — specification kept free under a Public Access Guarantee, enforcement layer licensed on FRAND terms, certification kept separate from training, and no products sold by the steward — are described in [`GOVERNANCE.md`](GOVERNANCE.md).
+The UGP is stewarded by Triodian today, which intends to transfer stewardship to an independent public-interest body, the Casuarina Foundation, once it is established. The commitments — specification kept free under a Public Access Guarantee, enforcement layer licensed on FRAND terms, certification kept separate from training, and no products sold by the steward — are described in [`GOVERNANCE.md`](GOVERNANCE.md).
