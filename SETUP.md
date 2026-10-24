@@ -10,12 +10,12 @@ The repository is set up for the following, so no placeholder editing is needed 
 | Setting | Value | Where |
 |---|---|---|
 | Maintainer / reviewer | `@damohickey1966` | `.github/CODEOWNERS` |
-| Repository slug | `orthogramic/universal-governance-protocol` | `.github/ISSUE_TEMPLATE/config.yml` |
-| Contact address | `info@orthogramic.com` | `SECURITY.md`, `CODE_OF_CONDUCT.md`, `GOVERNANCE.md` |
+| Repository slug | `Triodian/universal-governance-protocol` | `.github/ISSUE_TEMPLATE/config.yml` |
+| Contact address | `info@triodian.com` | `SECURITY.md`, `CODE_OF_CONDUCT.md`, `GOVERNANCE.md` |
 
 Optional: `LICENSE` references the Apache 2.0 text by URL. Paste the full Apache 2.0 body into it if your convention requires the complete text.
 
-> Stewardship is currently **Orthogramic Pty Ltd (interim)**, with a documented intent to transfer to the **Casuarina Foundation** once it is established (see `GOVERNANCE.md`). You do not need to create the Foundation to publish the repository; the governance docs already describe the interim arrangement and the planned hand-over.
+> Stewardship is currently **Triodian Pty Ltd (interim)**, with a documented intent to transfer to the **Casuarina Foundation** once it is established (see `GOVERNANCE.md`). You do not need to create the Foundation to publish the repository; the governance docs already describe the interim arrangement and the planned hand-over.
 
 Sanity check before pushing (should return nothing):
 
@@ -34,14 +34,14 @@ git commit -m "Initial public documentation set for the UGP open protocol layer"
 git branch -M main
 
 # Create the repo first (via the GitHub UI or `gh repo create`), then:
-git remote add origin git@github.com:orthogramic/universal-governance-protocol.git
+git remote add origin git@github.com:Triodian/universal-governance-protocol.git
 git push -u origin main
 ```
 
 Using the GitHub CLI end to end:
 
 ```bash
-gh repo create orthogramic/universal-governance-protocol --public --source=. --remote=origin \
+gh repo create Triodian/universal-governance-protocol --public --source=. --remote=origin \
   --description "Universal Governance Protocol — open standard for verifiable AI governance" \
   --push
 ```

@@ -1,7 +1,7 @@
 # Frequently Asked Questions
 
 **Is the protocol actually open?**
-Yes. The Core specification, FCSL, the trust and verification model, the domain sub-protocols and profiles, the conformance suites, the reference implementations, and the SDKs are published under Apache 2.0 and maintained by the UGP Steward (Orthogramic Pty Ltd today, transferring to the Casuarina Foundation — see GOVERNANCE.md). The licensed component is the enforcement layer that issues trust-anchored signatures. See [`GOVERNANCE.md`](GOVERNANCE.md).
+Yes. The Core specification, FCSL, the trust and verification model, the domain sub-protocols and profiles, the conformance suites, the reference implementations, and the SDKs are published under Apache 2.0 and maintained by the UGP Steward (Triodian Pty Ltd today, transferring to the Casuarina Foundation — see GOVERNANCE.md). The licensed component is the enforcement layer that issues trust-anchored signatures. See [`GOVERNANCE.md`](GOVERNANCE.md).
 
 **What can I build without a licence?**
 Anything on the open layer. You can parse and produce tokens, evaluate FCSL constraints, run the state machines, verify received tokens, build tooling and auditors' verifiers, teach with the materials, and extend the protocol. A **verification-conformant** implementation is fully buildable from this repository. A licence is required only to *issue trust-anchored tokens* a regulator or insurer will accept — that is, to be **generation-conformant**.
@@ -37,4 +37,4 @@ Yes, through a **governance bridge** that translates their attestations into UGP
 Through the extension and contribution process in [`CONTRIBUTING.md`](CONTRIBUTING.md). New extensions pass a compatibility and security review so the protocol does not fragment into incompatible variants.
 
 **Who governs the protocol?**
-The UGP is stewarded by Orthogramic Pty Ltd today, which intends to transfer stewardship to an independent public-interest body, the Casuarina Foundation, once it is established. The commitments — specification kept free under a Public Access Guarantee, enforcement layer licensed on FRAND terms, certification kept separate from training, and no products sold by the steward — are described in [`GOVERNANCE.md`](GOVERNANCE.md).
+The UGP is stewarded by Triodian Pty Ltd today, which intends to transfer stewardship to an independent public-interest body, the Casuarina Foundation, once it is established. The commitments — specification kept free under a Public Access Guarantee, enforcement layer licensed on FRAND terms, certification kept separate from training, and no products sold by the steward — are described in [`GOVERNANCE.md`](GOVERNANCE.md).
