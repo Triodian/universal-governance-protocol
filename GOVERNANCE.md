@@ -46,8 +46,6 @@ A clean line between mission stewardship and commercial activity is what makes t
 - Charge for specification access — the Public Access Guarantee is intended to be irrevocable.
 - Let the certification body also profit from paid training — certification is kept vendor-neutral and, once the Foundation runs it, structurally separated from training delivery (training is delivered by independent partners).
 
-> **Note on the interim phase.** While Orthogramic Pty Ltd both authors the protocol and holds the enforcement-layer commercial interest, the separation above is a stated commitment rather than a structurally independent fact. Making it structurally independent is precisely the purpose of transferring stewardship to the Casuarina Foundation. This note will be removed on hand-over.
-
 ---
 
 ## 5. Decision-making (interim)
