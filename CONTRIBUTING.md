@@ -1,6 +1,6 @@
 # Contributing to the UGP
 
-The UGP is developed in the open and maintained by the UGP Steward — Orthogramic Pty Ltd today, transferring to the Casuarina Foundation once established (see [`GOVERNANCE.md`](GOVERNANCE.md)). Contributions — corrections, clarifications, reference-implementation improvements, new test vectors, and proposals for new extensions or domains — are welcome.
+The UGP is developed in the open and maintained by the UGP Steward — Triodian Pty Ltd today, transferring to the Casuarina Foundation once established (see [`GOVERNANCE.md`](GOVERNANCE.md)). Contributions — corrections, clarifications, reference-implementation improvements, new test vectors, and proposals for new extensions or domains — are welcome.
 
 ## Ground rules
 

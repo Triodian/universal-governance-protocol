@@ -17,7 +17,7 @@ For security-sensitive domains (for example, the security-governance profile), s
 
 - **Do not** open a public issue, discussion, or pull request for a suspected vulnerability.
 - Use **GitHub's private vulnerability reporting** ("Report a vulnerability" under the Security tab) if it is enabled on this repository, **or**
-- Email the maintainer at info@orthogramic.com (Orthogramic Pty Ltd, interim steward).
+- Email the maintainer at info@triodian.com (Triodian Pty Ltd, interim steward).
 
 Please include, where you can:
 

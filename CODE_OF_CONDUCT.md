@@ -2,7 +2,7 @@
 
 ## Our pledge
 
-We — contributors, the maintainer, and Orthogramic Pty Ltd as interim steward — pledge to make participation in the Universal Governance Protocol community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We — contributors, the maintainer, and Triodian Pty Ltd as interim steward — pledge to make participation in the Universal Governance Protocol community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community — one in which technical disagreement is normal and is handled with respect.
 
@@ -35,7 +35,7 @@ This Code of Conduct applies within all community spaces — the repository, iss
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported privately to the maintainer, Damian Hickey, at info@orthogramic.com, or through GitHub's private reporting channels. All complaints will be reviewed and investigated promptly and fairly. Maintainers are obligated to respect the privacy and security of the reporter of any incident.
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported privately to the maintainer, Damian Hickey, at info@triodian.com, or through GitHub's private reporting channels. All complaints will be reviewed and investigated promptly and fairly. Maintainers are obligated to respect the privacy and security of the reporter of any incident.
 
 ## Enforcement guidelines
 
