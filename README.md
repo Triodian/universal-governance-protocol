@@ -17,6 +17,7 @@ This repository contains the **open protocol layer**: the wire formats, exchange
 | Document | Purpose |
 |---|---|
 | [`spec/CORE.md`](spec/CORE.md) | The UGP Core Specification — layer model, the compliance token wire format, verification, versioning, and interoperability rules. Start here. |
+| [`spec/EXCHANGE.md`](spec/EXCHANGE.md) | The governed-output exchange — how a workload requests a governed output from a governing service (co-located, customer-hosted or third-party hosted) and receives the output with a compliance token it can verify without trusting the host. |
 | [`spec/FCSL.md`](spec/FCSL.md) | The Formal Constraint Specification Language — how you express the rules a governed system must satisfy. |
 | [`spec/TRUST-MODEL.md`](spec/TRUST-MODEL.md) | The trust and verification model: trust anchors, trust-chain resolution, partial verification, and what the open layer does and does not guarantee. |
 | [`spec/CONFORMANCE.md`](spec/CONFORMANCE.md) | Conformance classes and how implementations are tested. |

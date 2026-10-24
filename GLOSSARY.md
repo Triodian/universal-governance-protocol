@@ -28,6 +28,10 @@
 
 **Generation-conformant.** See **conformance class**.
 
+**Govern exchange.** The request/response by which a requester obtains a governed output and its compliance token from a governing service. See [`spec/EXCHANGE.md`](spec/EXCHANGE.md).
+
+**Governing service.** A generation-conformant implementation that accepts Govern requests and returns governed outputs with compliance tokens. It may be co-located with the requester, hosted by the customer, or hosted by a third party.
+
 **Governance bridge.** A translator that lets a non-UGP governance mechanism participate by emitting UGP tokens; bridged tokens are marked as such.
 
 **Governance state.** A system's complete governance posture: active constraint configuration, fallback tier, convergence parameters, and health metrics.
@@ -41,6 +45,8 @@
 **Process attestation.** Attestation that *a specific output was produced through a verified governance process* — a statement about the product. The property a UGP compliance token provides.
 
 **Provenance chain.** The linkage of each token to its predecessor, allowing an unbroken session history to be reconstructed and gaps to be detected.
+
+**Requester.** The workload, agent, or gateway that sends a Govern request. See [`spec/EXCHANGE.md`](spec/EXCHANGE.md).
 
 **Trust anchor.** The root of trust whose signature appears on a token. Treated abstractly by the open layer. See [`spec/TRUST-MODEL.md`](spec/TRUST-MODEL.md).
 

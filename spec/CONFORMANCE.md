@@ -38,6 +38,13 @@ A **generation-conformant** implementation additionally *produces* tokens carryi
 
 Generation of trust-anchored signatures requires the enforcement layer and is therefore **out of scope for the open specification**. A software-only implementation can produce structurally valid tokens for testing and development, but their signatures will not verify against a recognised trust anchor and MUST NOT be presented as trust-anchored.
 
+### Exchange conformance
+
+**Exchange conformance** is declared in addition to one of the classes above, by implementations that take part in the Govern exchange of [`EXCHANGE.md`](EXCHANGE.md).
+
+- An **exchange-conformant governing service** is generation-conformant and additionally accepts Govern requests, returns Govern responses with correct status semantics, refuses to substitute a constraint set other than the one requested, embeds the `ugp.exchange` request binding in every token it issues, applies the freshness and retry rules, and reports the standardised exchange error codes.
+- An **exchange-conformant requester** is verification-conformant and additionally constructs canonical Govern requests, performs the request-, constraint-set- and provenance-correspondence checks of [`EXCHANGE.md` §6.2](EXCHANGE.md#62-requester-verification) before acting on any output, and never acts on an output whose response status is not `governed`.
+
 ---
 
 ## 2. Domain conformance
@@ -57,6 +64,7 @@ Conformance is established against **published test vectors** maintained by the 
 - Unknown-extension handling.
 - Freshness and revocation cases.
 - Per-domain extension cases.
+- Exchange cases: canonical request hashing; responses whose `ugp.exchange` binding, constraint set, or provenance link does not match the request, each rejected with the expected exchange error code; constraint-set pinning mismatches; reused and retried `request_id` values; and governance-failure responses that MUST NOT be treated as governed.
 
 The reference implementations in this repository are validated against the same vectors and are a good starting point for a new implementation.
 
