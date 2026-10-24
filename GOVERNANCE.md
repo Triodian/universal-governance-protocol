@@ -1,12 +1,12 @@
 # Governance and Stewardship
 
-The Universal Governance Protocol is an open standard maintained by its **Steward**. This document explains who the Steward is today, the open/enforcement layer separation, and how contribution and decision-making work in the interim.
+The Universal Governance Protocol is an open standard maintained by its **Steward**. This document explains who the Steward is today.
 
 ---
 
 ## 1. Who stewards the UGP
 
-**Today (interim stewardship).** The UGP is managed by **Triodian Pty Ltd**, which authored the protocol and currently maintains the specifications, the reference materials, the conformance suites, and this repository. In this phase the project is small and maintainer-led: the current maintainer is **Damian Hickey**.
+**Today.** The UGP is managed by **Triodian Pty Ltd**, which authored the protocol and currently maintains the specifications, the reference materials, the conformance suites, and this repository. In this phase the project is small and maintainer-led: the current maintainer is **Damian Hickey**.
 
 The word **"Steward"** is used throughout the specification documents deliberately, so that the protocol text does not have to change when stewardship transfers. Where a spec says "maintained by the UGP Steward," that means Triodian Pty Ltd.
 
@@ -21,7 +21,7 @@ The UGP rests on a deliberate separation:
 
 The open layer drives adoption; the enforcement layer anchors trust at the point where regulatory acceptance demands it. The **compliance token** is the bridge between them. This is the same structural pattern used by Arm (open architecture, licensed cores), Bluetooth (open protocol, certified radios), and HDMI (open connector, licensed content protection). In each case the open specification is genuinely open, and the licensed component sits precisely where trust and value concentrate.
 
-The project is committed to four principles, which the interim Steward holds now and which are intended to be entrenched in the Casuarina Foundation's constitution on hand-over:
+The project is committed to four principles, which the Steward holds now and which are intended to be entrenched in the Casuarina Foundation's constitution on hand-over:
 
 - **Open by construction.** The protocol specifications, FCSL, the constraint taxonomy, the compliance-token format, the reference implementations, the conformance suites, and the SDKs are published under an open licence (Apache 2.0) and are intended to remain free to access, free to implement, and free to teach with, in perpetuity, under a **Public Access Guarantee** to be made irrevocable by the Foundation.
 - **Enforcement where it matters.** Trust-anchored compliance tokens — the evidence that regulators, insurers, and procurement processes accept — are issued only by licensed implementations of the enforcement layer.
@@ -34,7 +34,7 @@ The project is committed to four principles, which the interim Steward holds now
 
 - **Publishes and maintains the open protocol layer.** The specifications in this repository, FCSL, the constraint taxonomy, and the compliance-token format, updated through a transparent process.
 - **Operates conformance and certification.** The conformance test suites, the certification programme for implementations, and the implementer directory.
-- **Stewards the enforcement layer's availability.** The enforcement layer is intended to be made available to qualifying implementers on **fair, reasonable, and non-discriminatory (FRAND)** terms after hand-over. In the interim, licensing of the enforcement layer is handled by Orthogramic Pty Ltd.
+- **Stewards the enforcement layer's availability.** The enforcement layer is intended to be made available to qualifying implementers on **fair, reasonable, and non-discriminatory (FRAND)** terms after hand-over.
 - **Advises** governments and standards bodies on structurally enforceable AI governance.
 - **Funds public-benefit programmes** from licensing income once the Foundation is established (for example a developing-nation programme), through a published, priority-ordered allocation.
 
@@ -48,7 +48,7 @@ A clean line between mission stewardship and commercial activity is what makes t
 
 ---
 
-## 5. Decision-making (interim)
+## 5. Decision-making
 
 While the project is maintainer-led:
 
