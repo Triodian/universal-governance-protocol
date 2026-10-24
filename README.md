@@ -2,7 +2,7 @@
 
 **An open standard for verifiable AI governance.**
 
-Status: Working drafts for public review · Licence: Apache 2.0 · Steward: Orthogramic Pty Ltd (interim; transferring to the Casuarina Foundation — see GOVERNANCE.md)
+Status: Working drafts for public review · Licence: Apache 2.0 · Steward: Triodian Pty Ltd
 
 ---
 
