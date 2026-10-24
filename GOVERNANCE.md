@@ -1,16 +1,14 @@
 # Governance and Stewardship
 
-The Universal Governance Protocol is an open standard maintained by its **Steward**. This document explains who the Steward is today, the planned transfer of stewardship to an independent foundation, the open/enforcement layer separation, and how contribution and decision-making work in the interim.
+The Universal Governance Protocol is an open standard maintained by its **Steward**. This document explains who the Steward is today, the open/enforcement layer separation, and how contribution and decision-making work in the interim.
 
 ---
 
 ## 1. Who stewards the UGP
 
-**Today (interim stewardship).** The UGP is managed by **Orthogramic Pty Ltd**, which authored the protocol and currently maintains the specifications, the reference materials, the conformance suites, and this repository. In this phase the project is small and maintainer-led: the current maintainer is **Damian Hickey**.
+**Today (interim stewardship).** The UGP is managed by **Triodian Pty Ltd**, which authored the protocol and currently maintains the specifications, the reference materials, the conformance suites, and this repository. In this phase the project is small and maintainer-led: the current maintainer is **Damian Hickey**.
 
-**Planned (independent stewardship).** Orthogramic intends to transfer stewardship of the open protocol layer to an independent, public-interest body — the **Casuarina Foundation** — once that Foundation is established. On transfer, the Casuarina Foundation becomes "the Steward" wherever this repository uses that term, and assumes maintenance of the specification, the conformance and certification programmes, and the public-benefit commitments below.
-
-The word **"Steward"** is used throughout the specification documents deliberately, so that the protocol text does not have to change when stewardship transfers. Where a spec says "maintained by the UGP Steward," that means Orthogramic Pty Ltd today and the Casuarina Foundation after hand-over.
+The word **"Steward"** is used throughout the specification documents deliberately, so that the protocol text does not have to change when stewardship transfers. Where a spec says "maintained by the UGP Steward," that means Triodian Pty Ltd.
 
 ---
 
@@ -65,20 +63,7 @@ As the project grows, review responsibilities will be delegated to named reviewe
 
 ---
 
-## 6. The transfer to the Casuarina Foundation
-
-On establishment of the Casuarina Foundation, Orthogramic Pty Ltd intends to:
-
-- assign or exclusively license the open protocol layer to the Foundation under terms that preserve the Public Access Guarantee;
-- transfer operation of the conformance and certification programmes to the Foundation;
-- place the enforcement-layer patent rights under the Foundation's stewardship, licensed back to Orthogramic (and to others on FRAND terms) so that the Foundation, not the operating company, holds the governance root;
-- seat a board that represents the public interest, technical excellence, civil society, and the developing world, rather than licensees or model developers.
-
-Until that transfer completes, this repository and its specifications are maintained by Orthogramic Pty Ltd under the commitments in this document.
-
----
-
-## 7. The open/enforcement boundary, precisely
+## 6. The open/enforcement boundary, precisely
 
 For contributors and implementers, the boundary is worth stating plainly:
 
@@ -90,10 +75,8 @@ You can build, test, verify, teach, and extend on the open layer without any lic
 
 ---
 
-## 8. Contact
+## 7. Contact
 
 - **Project / specification:** open an issue or discussion in this repository.
 - **Security and verification issues:** see [`SECURITY.md`](SECURITY.md) — please report privately, not in a public issue.
-- **Stewardship, licensing, and the Foundation transfer:** Orthogramic Pty Ltd — info@orthogramic.com.
-
-*This is a plain-language overview of an evolving governance arrangement. The Casuarina Foundation's constitution and irrevocable provisions will govern once established; until then, the commitments here are those of Orthogramic Pty Ltd as interim Steward.*
+- **Stewardship and licensing:** Triodian Pty Ltd — info@triodian.com.
