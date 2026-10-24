@@ -16,6 +16,8 @@ The UGP Core defines the common substrate that all UGP sub-protocols share. Exis
 
 The Core is **transport-agnostic**. Tokens and messages may be carried over HTTP headers, gRPC metadata, message-queue payloads, or any other transport.
 
+The Core defines how a token is *verified*. How a workload *requests* a governed output from a governing service, and receives the output with its token, is defined in [`EXCHANGE.md`](EXCHANGE.md).
+
 ---
 
 ## 2. The Layer Model
@@ -166,6 +168,8 @@ Every interaction between two systems begins with a handshake whose purpose is *
 
 Handshake failure MUST be reported with a code identifying the specific incompatibility (version mismatch, no common trust anchor, constraint-domain incompatibility) and recommended remediation. Negotiation outcomes SHOULD be recorded in a tamper-evident audit log.
 
+The handshake establishes interoperability; it is not itself a request for governance. Once a handshake has completed, governed outputs are requested and returned through the Govern exchange of [`EXCHANGE.md`](EXCHANGE.md).
+
 ### 6.2 Governance-State Exchange
 
 Beyond per-output tokens, the Core supports continuous exchange of governance **state** for federated and monitored deployments. A governance-state message encodes a system's posture: active constraint-set identifier, fallback-tier state, convergence parameters, governance health metrics (such as divergence-event rates and token-generation rates), and governance-policy version.
@@ -200,7 +204,7 @@ New token-extension types, constraint-domain bindings, and verification procedur
 
 ## 10. Conformance
 
-Conformance classes are defined in [`CONFORMANCE.md`](CONFORMANCE.md). In summary, a **Core-conformant** implementation produces and parses tokens in the canonical format of §4, executes the verification sequence of §5, completes the handshake of §6, correctly handles unknown domain extensions, and passes the published conformance test vectors for its declared version. A **generation-conformant** implementation additionally produces trust-anchored signatures via a licensed enforcement layer; a **verification-conformant** implementation need not generate tokens but MUST verify them per §5.
+Conformance classes are defined in [`CONFORMANCE.md`](CONFORMANCE.md). In summary, a **Core-conformant** implementation produces and parses tokens in the canonical format of §4, executes the verification sequence of §5, completes the handshake of §6, correctly handles unknown domain extensions, and passes the published conformance test vectors for its declared version. A **generation-conformant** implementation additionally produces trust-anchored signatures via a licensed enforcement layer; a **verification-conformant** implementation need not generate tokens but MUST verify them per §5. Implementations that serve or make governed-output requests may additionally declare **exchange conformance** (see [`EXCHANGE.md` §12](EXCHANGE.md#12-conformance)).
 
 ---
 
