@@ -1,0 +1,31 @@
+Universal Governance Protocol
+Copyright (c) Triodian Pty Ltd.
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+The following note on the scope of that licence was previously at the top of
+LICENSE and is carried here unchanged.
+
+------------------------------------------------------------------------------
+
+The specifications, reference implementations, conformance suites, and SDKs in
+this repository — the open protocol layer of the Universal Governance Protocol —
+are licensed under the Apache License, Version 2.0 (the "License"); you may not
+use these files except in compliance with the License. You may obtain a copy of
+the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+------------------------------------------------------------------------------
+
+SCOPE NOTE
+
+This License covers ONLY the open protocol layer contained in this repository.
+The enforcement layer that generates trust-anchored compliance-token signatures
+is a separate, licensed component and is NOT covered by this License. See
+GOVERNANCE.md for how the open layer and the enforcement layer relate.
+

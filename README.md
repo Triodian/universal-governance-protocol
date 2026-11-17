@@ -1,12 +1,14 @@
 # Universal Governance Protocol (UGP)
 
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Triodian/universal-governance-protocol/badge)](https://scorecard.dev/viewer/?uri=github.com/Triodian/universal-governance-protocol)
+
 **An open standard for verifiable AI governance.**
 
 Status: Working drafts for public review · Licence: Apache 2.0 · Steward: Triodian Pty Ltd
 
 ---
 
-The Universal Governance Protocol is an open, royalty-free family of protocols for **proving how an AI output was produced** — not that a policy existed on paper, but that a specific output was checked against a defined set of constraints, refined until it satisfied them, and released only after that check passed.
+The Universal Governance Protocol is an open-source family of protocols, under Apache 2.0, for **proving how an AI output was produced** — not that a policy existed on paper, but that a specific output was checked against a defined set of constraints, refined until it satisfied them, and released only after that check passed.
 
 Every governed output under the UGP carries a **compliance token**: a self-describing, cryptographically signed record attesting the governance process that produced it. Any party — a regulator, an auditor, an insurer, a downstream system, a counterparty — can verify that token independently, without trusting the software stack that produced it.
 
@@ -70,6 +72,6 @@ These are **working drafts published for review**. Conformance test vectors, the
 
 ## Licence
 
-Specifications, reference implementations, and conformance suites in this repository are licensed under **Apache 2.0**. See [`LICENSE`](LICENSE).
+Specifications, reference implementations, and conformance suites in this repository are licensed under **Apache 2.0**. See [`LICENSE`](LICENSE) for the licence and [`NOTICE`](NOTICE) for its scope.
 
 The enforcement layer that generates trust-anchored signatures is a separate, licensed component and is out of scope for this repository. See [`GOVERNANCE.md`](GOVERNANCE.md) for how the two relate.

@@ -16,7 +16,7 @@ The word **"Steward"** is used throughout the specification documents deliberate
 
 The UGP rests on a deliberate separation:
 
-- an **open, royalty-free protocol layer** that anyone can implement, and
+- an **open protocol layer, under Apache 2.0,** that anyone can implement, and
 - an **enforcement layer** that carries the cryptographic weight of compliance.
 
 The open layer drives adoption; the enforcement layer anchors trust at the point where regulatory acceptance demands it. The **compliance token** is the bridge between them. This is the same structural pattern used by Arm (open architecture, licensed cores), Bluetooth (open protocol, certified radios), and HDMI (open connector, licensed content protection). In each case the open specification is genuinely open, and the licensed component sits precisely where trust and value concentrate.
